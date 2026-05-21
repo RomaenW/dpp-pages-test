@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="560" viewBox="0 0 1800 560">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6B7280"/></marker></defs>
+<text x="900.0" y="50" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="900.0" dy="0">Gate-based DPP logic: reference unit shifts across the lifecycle</tspan></text>
+<text x="900.0" y="88" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="900.0" dy="0">Material batch -&gt; component lot -&gt; product item -&gt; collection batch -&gt; sub-stream -&gt; fraction -&gt; recyclate batch</tspan></text>
+<rect x="40" y="95" width="738" height="28" rx="14" fill="#EFF6FF" stroke="#BFDBFE"/>
+<text x="409" y="115" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1E3A8A" text-anchor="middle"><tspan x="409" dy="0">UPSTREAM: product documentation and market-facing DPP</tspan></text>
+<rect x="802" y="95" width="230" height="28" rx="14" fill="#FFFBEB" stroke="#FDE68A"/>
+<text x="917" y="115" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#92400E" text-anchor="middle"><tspan x="917" dy="0">TRANSITION</tspan></text>
+<rect x="1056" y="95" width="704" height="28" rx="14" fill="#F0FDF4" stroke="#BBF7D0"/>
+<text x="1408" y="115" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#166534" text-anchor="middle"><tspan x="1408" dy="0">DOWNSTREAM: batch, fraction and recyclate requalification</tspan></text>
+<rect x="40" y="120" width="230" height="150" rx="18" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="155.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="155.0" dy="0">G1</tspan></text>
+<text x="155.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="155.0" dy="0">Material</tspan><tspan x="155.0" dy="21.599999999999998">Supply</tspan></text>
+<text x="155.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="155.0" dy="0">Material batch</tspan></text>
+<text x="155.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="155.0" dy="0">Material DPP</tspan><tspan x="155.0" dy="15.6">SDS/TDS</tspan></text>
+<line x1="274" y1="195.0" x2="290" y2="195.0" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="294" y="120" width="230" height="150" rx="18" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="409.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="409.0" dy="0">G2</tspan></text>
+<text x="409.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="409.0" dy="0">Component</tspan><tspan x="409.0" dy="21.599999999999998">Manufacturing</tspan></text>
+<text x="409.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="409.0" dy="0">Component lot</tspan></text>
+<text x="409.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="409.0" dy="0">Component DPP</tspan><tspan x="409.0" dy="15.6">process record</tspan></text>
+<line x1="528" y1="195.0" x2="544" y2="195.0" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="548" y="120" width="230" height="150" rx="18" fill="#DBEAFE" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="663.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="663.0" dy="0">G3</tspan></text>
+<text x="663.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="663.0" dy="0">End</tspan><tspan x="663.0" dy="21.599999999999998">Product</tspan></text>
+<text x="663.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="663.0" dy="0">Product item/model</tspan></text>
+<text x="663.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="663.0" dy="0">End-product DPP</tspan><tspan x="663.0" dy="15.6">AssociationEvent</tspan></text>
+<line x1="782" y1="195.0" x2="798" y2="195.0" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="802" y="120" width="230" height="150" rx="18" fill="#FEF3C7" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="917.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="917.0" dy="0">G4</tspan></text>
+<text x="917.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="917.0" dy="0">Collection</tspan></text>
+<text x="917.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="917.0" dy="0">Collection batch</tspan></text>
+<text x="917.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="917.0" dy="0">PRBL initiated</tspan><tspan x="917.0" dy="15.6">AggregationEvent</tspan></text>
+<line x1="1036" y1="195.0" x2="1052" y2="195.0" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1056" y="120" width="230" height="150" rx="18" fill="#DCFCE7" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="1171.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="1171.0" dy="0">G5</tspan></text>
+<text x="1171.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="1171.0" dy="0">Pre-processing</tspan></text>
+<text x="1171.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="1171.0" dy="0">Sub-stream</tspan></text>
+<text x="1171.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="1171.0" dy="0">PRBL updated</tspan><tspan x="1171.0" dy="15.6">TransformationEvent</tspan></text>
+<line x1="1290" y1="195.0" x2="1306" y2="195.0" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1310" y="120" width="230" height="150" rx="18" fill="#DCFCE7" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="1425.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="1425.0" dy="0">G6</tspan></text>
+<text x="1425.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="1425.0" dy="0">Sorting</tspan></text>
+<text x="1425.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="1425.0" dy="0">Fraction</tspan></text>
+<text x="1425.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="1425.0" dy="0">Sorting log</tspan><tspan x="1425.0" dy="15.6">screening report</tspan></text>
+<line x1="1544" y1="195.0" x2="1560" y2="195.0" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1564" y="120" width="230" height="150" rx="18" fill="#DCFCE7" stroke="#9CA3AF" stroke-width="1.5"/>
+<text x="1679.0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle"><tspan x="1679.0" dy="0">G7</tspan></text>
+<text x="1679.0" y="190" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="1679.0" dy="0">Compounding</tspan></text>
+<text x="1679.0" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#0F766E" text-anchor="middle"><tspan x="1679.0" dy="0">Recyclate batch</tspan></text>
+<text x="1679.0" y="260" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="1679.0" dy="0">New material DPP</tspan><tspan x="1679.0" dy="15.6">CoA/DQL</tspan></text>
+<rect x="40" y="325" width="1720" height="170" rx="18" fill="#F9FAFB" stroke="#D1D5DB"/>
+<text x="900.0" y="359" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="900.0" dy="0">Core discontinuity for the paper/poster</tspan></text>
+<text x="900.0" y="393" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" fill="#374151" text-anchor="middle"><tspan x="900.0" dy="0">The DPP is not just a static product file. It must link changing reference units and evidence objects across the lifecycle.</tspan></text>
+<rect x="120" y="420" width="460" height="48" rx="24" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="350" y="451" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="350" dy="0">F1: Product identity vs. batch/fraction reality</tspan></text>
+<rect x="660" y="420" width="460" height="48" rx="24" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="890" y="451" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="890" dy="0">F2: Compliance evidence vs. operational recycling data</tspan></text>
+<rect x="1200" y="420" width="460" height="48" rx="24" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="1430" y="451" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="1430" dy="0">F5: Inherited claims vs. requalified recyclate</tspan></text>
+</svg>
